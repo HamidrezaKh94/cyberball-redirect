@@ -1,0 +1,11 @@
+<html>
+<body>
+    <script>
+        window.close();
+        if (window.opener) {
+            window.opener.focus();
+        }
+    </script>
+    <p>If this window does not close automatically, please close it manually to return to the survey.</p>
+</body>
+</html>
