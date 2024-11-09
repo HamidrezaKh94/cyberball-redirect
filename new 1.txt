@@ -1,0 +1,13 @@
+<html>
+<body>
+    <script>
+        // Attempt to close the current window
+        window.close();
+        // Refocus the main LimeSurvey window if it’s still open
+        if (window.opener) {
+            window.opener.focus();
+        }
+    </script>
+    <p>If this window does not close automatically, please close it manually to return to the survey.</p>
+</body>
+</html>
